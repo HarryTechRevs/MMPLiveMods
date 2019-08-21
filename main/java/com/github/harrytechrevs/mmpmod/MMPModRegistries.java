@@ -37,7 +37,7 @@ public class MMPModRegistries
 		
 			MMPItems.shulker_helmet = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.HEAD, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_helmet")),
 			MMPItems.shulker_chestplate = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.CHEST, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_chestplate")),
-			MMPItems.shulker_leggings = new MagmaticArmor(MMPArmorMaterials.shulker, EquipmentSlotType.LEGS, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_leggings")),
+			MMPItems.shulker_leggings = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.LEGS, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_leggings")),
 			MMPItems.shulker_boots = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.FEET, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_boots"))												
 		);
 				
