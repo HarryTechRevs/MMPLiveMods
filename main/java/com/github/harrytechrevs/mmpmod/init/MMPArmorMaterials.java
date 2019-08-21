@@ -13,7 +13,8 @@ import net.minecraft.util.SoundEvents;
 public enum MMPArmorMaterials implements IArmorMaterial
 {
 	magmatic("magmatic", 30, new int[] {4, 6, 5, 3}, 20, Items.MAGMA_BLOCK, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f),
-	shulker("shulker", 30, new int[] {4, 6, 5, 3}, 20, Items.SHULKER_SHELL, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f);
+	shulker("shulker", 30, new int[] {4, 6, 5, 3}, 20, Items.SHULKER_SHELL, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f),
+	cactus("cactus", 30, new int[] {4, 6, 5, 3}, 20, Items.SHULKER_SHELL, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f);
 	
 	private static final int[] max_damage_array = new int[]{13, 15, 16, 11};
 	private String name;

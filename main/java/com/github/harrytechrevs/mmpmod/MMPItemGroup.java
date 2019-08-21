@@ -15,6 +15,6 @@ public class MMPItemGroup extends ItemGroup
 	@Override
 	public ItemStack createIcon() 
 	{
-		return new ItemStack(MMPItems.test_item);
+		return new ItemStack(MMPItems.magmatium);
 	}
 }

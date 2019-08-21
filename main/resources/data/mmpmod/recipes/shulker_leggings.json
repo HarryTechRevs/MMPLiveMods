@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"SDS",
+		"DLD",
+		"S S"
+	],
+	
+	"key":
+	{
+		"S": { "item": "minecraft:shulker_shell" },
+		"D": { "item": "minecraft:diamond" },
+		"L": { "item": "minecraft:diamond_leggings" }
+	},
+	
+	"result": { "item": "mmpmod:shulker_leggings" }
+}

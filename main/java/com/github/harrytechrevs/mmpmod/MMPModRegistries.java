@@ -27,9 +27,7 @@ public class MMPModRegistries
 	{
 		event.getRegistry().registerAll
 		(
-			MMPItems.test_item = new Item(new Item.Properties().group(MMP_GROUP)).setRegistryName(location("test_item")),
-			MMPItems.magmatium = new Item(new Item.Properties().group(MMP_GROUP)).setRegistryName(location("magmatium")),
-			
+			MMPItems.magmatium = new Item(new Item.Properties().group(MMP_GROUP)).setRegistryName(location("magmatium")),	
 			MMPItems.magmatic_helmet = new MagmaticArmor(MMPArmorMaterials.magmatic, EquipmentSlotType.HEAD, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("magmatic_helmet")),
 			MMPItems.magmatic_chestplate = new MagmaticArmor(MMPArmorMaterials.magmatic, EquipmentSlotType.CHEST, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("magmatic_chestplate")),
 			MMPItems.magmatic_leggings = new MagmaticArmor(MMPArmorMaterials.magmatic, EquipmentSlotType.LEGS, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("magmatic_leggings")),
@@ -38,7 +36,7 @@ public class MMPModRegistries
 			MMPItems.shulker_helmet = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.HEAD, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_helmet")),
 			MMPItems.shulker_chestplate = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.CHEST, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_chestplate")),
 			MMPItems.shulker_leggings = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.LEGS, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_leggings")),
-			MMPItems.shulker_boots = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.FEET, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_boots"))												
+			MMPItems.shulker_boots = new ShulkerArmor(MMPArmorMaterials.shulker, EquipmentSlotType.FEET, new Item.Properties().group(MMP_GROUP)).setRegistryName(location("shulker_boots"))
 		);
 				
 		LOGGER.info("Items registered.");

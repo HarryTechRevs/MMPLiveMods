@@ -3,11 +3,8 @@ package com.github.harrytechrevs.mmpmod.init;
 import net.minecraft.item.Item;
 
 public class MMPItems 
-{
-	public static Item test_item;
-	
+{	
 	public static Item magmatium;
-	
 	public static Item magmatic_helmet;
 	public static Item magmatic_chestplate;
 	public static Item magmatic_leggings;

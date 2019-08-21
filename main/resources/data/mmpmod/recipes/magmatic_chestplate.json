@@ -3,8 +3,9 @@
 	
 	"pattern":
 	[
+		"M M",
 		"MMM",
-		"M M"
+		"MMM"
 	],
 	
 	"key":
@@ -12,5 +13,5 @@
 		"M": { "item": "mmpmod:magmatium" }	
 	},
 	
-	"result": { "item": "mmpmod:magmatic_helmet" }
+	"result": { "item": "mmpmod:magmatic_chestplate" }
 }
