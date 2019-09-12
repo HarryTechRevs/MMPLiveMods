@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": 
+	[
+		{ "item": "harryshouseimprovements:basic_chair" }
+	],
+	
+	"result": { "item": "harryshouseimprovements:basic_sofa" }
+}

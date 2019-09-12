@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"SS",
+		"S "
+	],
+	
+	"key":
+	{
+		"S": { "item": "harryshouseimprovements:basic_sofa" }
+	},
+	
+	"result": { "item": "harryshouseimprovements:basic_sofa_corner" }
+}

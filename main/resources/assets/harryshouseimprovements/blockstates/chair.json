@@ -1,0 +1,19 @@
+{
+    "variants": 
+    {
+        "facing=north,material=basic": { "model": "harryshouseimprovements:block/basic_chair", "y": 180},
+ 		"facing=east,material=basic": { "model": "harryshouseimprovements:block/basic_chair", "y": 270},
+	 	"facing=south,material=basic": { "model": "harryshouseimprovements:block/basic_chair" },
+		"facing=west,material=basic": { "model": "harryshouseimprovements:block/basic_chair", "y": 90 },
+		
+		"facing=north,material=wood": { "model": "harryshouseimprovements:block/wood_chair", "y": 180},
+ 		"facing=east,material=wood": { "model": "harryshouseimprovements:block/wood_chair", "y": 270},
+	 	"facing=south,material=wood": { "model": "harryshouseimprovements:block/wood_chair" },
+		"facing=west,material=wood": { "model": "harryshouseimprovements:block/wood_chair", "y": 90 },
+		
+		"facing=north,material=wool": { "model": "harryshouseimprovements:block/red_wool_chair", "y": 180},
+ 		"facing=east,material=wool": { "model": "harryshouseimprovements:block/red_wool_chair", "y": 270},
+	 	"facing=south,material=wool": { "model": "harryshouseimprovements:block/red_wool_chair" },
+		"facing=west,material=wool": { "model": "harryshouseimprovements:block/red_wool_chair", "y": 90 }
+    }
+}

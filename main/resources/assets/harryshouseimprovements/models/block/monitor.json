@@ -1,0 +1,79 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "iron_block": "minecraft:block/iron_block",
+        "monitor": "harryshouseimprovements:block/monitor",
+		"particle": "minecraft:block/iron_block"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "StandBottom",
+            "from": [ 5, 0, 6 ], 
+            "to": [ 11, 1, 10 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 11, 16, 16, 16 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 4, 1 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 6, 1 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 4, 1 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 6, 4 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 6, 4 ] }
+            }
+        },
+        {
+            "name": "Stand",
+            "from": [ 7, 1, 7 ], 
+            "to": [ 9, 4, 9 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 11, 16, 13, 16 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 2, 3 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 2, 3 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 2, 3 ] }
+            }
+        },
+        {
+            "name": "Monitor",
+            "from": [ 1, 4, 7 ], 
+            "to": [ 15, 12, 9 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 1, 8, 15, 16 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 2, 8 ] },
+                "south": { "texture": "#monitor", "uv": [ 0, 0, 12, 7 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 2, 8 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 14, 2 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 14, 2 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+	"itemGroup.harryshouseimprovements": "Harry's House Improvements",
+
+	"item.harryshouseimprovements.chair": "Chair",
+	"block.harryshouseimprovements.chair": "Chair",
+	
+	"item.harryshouseimprovements.sofa": "Sofa",
+	"block.harryshouseimprovements.sofa": "Sofa",
+	
+	"item.harryshouseimprovements.sofa_corner": "Sofa Corner",
+	"block.harryshouseimprovements.sofa_corner": "Sofa Corner",
+	
+	"item.harryshouseimprovements.monitor": "Monitor",
+	"block.harryshouseimprovements.monitor": "Monitor",
+	
+	"item.harryshouseimprovements.microphone": "Microphone",
+	"block.harryshouseimprovements.microphone": "Microphone"
+}

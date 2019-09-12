@@ -4,21 +4,21 @@ credits="Thanks to Harry Talks for his amazing tutorials." #optional
 authors="Harry" #optional
 
 [[mods]] #mandatory
-modId="mmpmod" #mandatory
+modId="harryshouseimprovements" #mandatory
 version="0.1.0" #mandatory
-displayName="MMP Mod" #mandatory
+displayName="Harry's House Improvements" #mandatory
 description='''
-Mod for the MMP Server
+Harry's House Improvements
 '''
 
-[[dependencies.mmpmod]] #optional
+[[dependencies.harryshouseimprovements]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
     versionRange="[28,)" #mandatory
     ordering="NONE"
     side="BOTH"
 # Here's another dependency
-[[dependencies.mmpmod]]
+[[dependencies.harryshouseimprovements]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.14.4]"

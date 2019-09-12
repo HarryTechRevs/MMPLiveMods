@@ -1,0 +1,104 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "iron_block": "minecraft:block/iron_block",
+        "anvil_base": "minecraft:block/anvil",
+		"particle": "minecraft:block/iron_block"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 5, 0, 5 ], 
+            "to": [ 11, 1, 11 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 1, 1, 7, 2 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 6, 1 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 6, 1 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 6, 1 ] },
+                "up": { "texture": "#iron_block", "uv": [ 1, 1, 7, 7 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 6, 6 ] }
+            }
+        },
+        {
+            "name": "MicrophoneBottom",
+            "from": [ 7, 3, 7 ], 
+            "to": [ 9, 5, 9 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "MicrophoneTop",
+            "from": [ 7, 6, 7 ], 
+            "to": [ 9, 8, 9 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Stand1",
+            "from": [ 6, 5, 6 ], 
+            "to": [ 10, 6, 10 ], 
+            "faces": {
+                "north": { "texture": "#anvil_base", "uv": [ 0, 0, 4, 1 ] },
+                "east": { "texture": "#anvil_base", "uv": [ 0, 0, 4, 1 ] },
+                "south": { "texture": "#anvil_base", "uv": [ 0, 0, 4, 1 ] },
+                "west": { "texture": "#anvil_base", "uv": [ 0, 0, 4, 1 ] },
+                "up": { "texture": "#anvil_base", "uv": [ 0, 0, 4, 4 ] },
+                "down": { "texture": "#anvil_base", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "Stand2",
+            "from": [ 5, 1, 7 ], 
+            "to": [ 6, 6, 9 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 0, 0, 1, 5 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 2, 5 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 1, 5 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 2, 5 ] },
+                "up": { "texture": "#iron_block", "uv": [ 0, 0, 1, 2 ] }
+            }
+        }
+    ]
+}

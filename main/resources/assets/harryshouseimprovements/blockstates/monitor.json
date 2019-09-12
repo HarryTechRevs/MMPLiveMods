@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "facing=north": { "model": "harryshouseimprovements:block/monitor", "y": 180},
+ 		"facing=east": { "model": "harryshouseimprovements:block/monitor", "y": 270},
+	 	"facing=south": { "model": "harryshouseimprovements:block/monitor" },
+		"facing=west": { "model": "harryshouseimprovements:block/monitor", "y": 90 }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "facing=north": { "model": "harryshouseimprovements:block/microphone", "y": 180},
+ 		"facing=east": { "model": "harryshouseimprovements:block/microphone", "y": 270},
+	 	"facing=south": { "model": "harryshouseimprovements:block/microphone" },
+		"facing=west": { "model": "harryshouseimprovements:block/microphone", "y": 90 }
+    }
+}

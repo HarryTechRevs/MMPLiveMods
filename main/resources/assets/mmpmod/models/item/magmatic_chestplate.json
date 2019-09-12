@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": 
-    {
-        "layer0": "mmpmod:item/magmatic_chestplate"
-    }
-}
