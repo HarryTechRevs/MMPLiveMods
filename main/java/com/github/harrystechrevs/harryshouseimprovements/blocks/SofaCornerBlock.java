@@ -7,7 +7,7 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
 
-public class SofaCornerBlock extends ChairBlock
+public class SofaCornerBlock extends FurnitureBlock
 {
 	VoxelShape base = VoxelShapes.create(0.0d, 0.0d, 0.0d, 1.0d, 0.375d, 1.0d);
 	VoxelShape backSouth = VoxelShapes.or(VoxelShapes.create(0.0d, 0.375d, 0.0d, 1.0d, 1.0d, 0.125d), VoxelShapes.create(0.0d, 0.375d, 0.0d, 0.125d, 1.0d, 1.0d));
@@ -17,7 +17,7 @@ public class SofaCornerBlock extends ChairBlock
 	
 	public SofaCornerBlock(Properties properties) 
 	{
-		super(properties);
+		super(properties, 0.2d);
 	}
 	
 	@Override

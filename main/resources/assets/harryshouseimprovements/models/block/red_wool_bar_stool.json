@@ -1,0 +1,113 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "red_wool": "minecraft:block/red_wool",
+        "iron_block": "minecraft:block/iron_block",
+		"particle": "minecraft:block/red_wool"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 1, 0, 1 ], 
+            "to": [ 15, 1, 15 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 0, 0, 14, 1 ] },
+                "east": { "texture": "#iron_block", "uv": [ 0, 0, 14, 1 ] },
+                "south": { "texture": "#iron_block", "uv": [ 0, 0, 14, 1 ] },
+                "west": { "texture": "#iron_block", "uv": [ 0, 0, 14, 1 ] },
+                "up": { "texture": "#iron_block", "uv": [ 1, 1, 15, 15 ] },
+                "down": { "texture": "#iron_block", "uv": [ 0, 0, 14, 14 ] }
+            }
+        },
+        {
+            "name": "Stand",
+            "from": [ 5, 1, 5 ], 
+            "to": [ 11, 13, 11 ], 
+            "faces": {
+                "north": { "texture": "#iron_block", "uv": [ 1, 1, 7, 13 ] },
+                "east": { "texture": "#iron_block", "uv": [ 1, 1, 7, 13 ] },
+                "south": { "texture": "#iron_block", "uv": [ 1, 1, 7, 13 ] },
+                "west": { "texture": "#iron_block", "uv": [ 1, 1, 7, 13 ] }
+            }
+        },
+        {
+            "name": "Chair",
+            "from": [ 0, 13, 0 ], 
+            "to": [ 16, 14, 16 ], 
+            "faces": {
+                "north": { "texture": "#red_wool", "uv": [ 0, 0, 16, 1 ] },
+                "east": { "texture": "#red_wool", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#red_wool", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#red_wool", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#red_wool", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#red_wool", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Back",
+            "from": [ 0, 14, 0 ], 
+            "to": [ 16, 16, 2 ], 
+            "faces": {
+                "north": { "texture": "#red_wool", "uv": [ 0, 0, 16, 2 ] },
+                "east": { "texture": "#red_wool", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#red_wool", "uv": [ 0, 0, 16, 2 ] },
+                "west": { "texture": "#red_wool", "uv": [ 0, 0, 2, 2 ] },
+                "up": { "texture": "#red_wool", "uv": [ 0, 0, 16, 2 ] }
+            }
+        },
+        {
+            "name": "Arm1",
+            "from": [ 0, 14, 2 ], 
+            "to": [ 2, 15, 16 ], 
+            "faces": {
+                "east": { "texture": "#red_wool", "uv": [ 0, 0, 14, 1 ] },
+                "south": { "texture": "#red_wool", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#red_wool", "uv": [ 0, 0, 14, 1 ] },
+                "up": { "texture": "#red_wool", "uv": [ 0, 0, 2, 14 ] }
+            }
+        },
+        {
+            "name": "Arm2",
+            "from": [ 14, 14, 2 ], 
+            "to": [ 16, 15, 16 ], 
+            "faces": {
+                "east": { "texture": "#red_wool", "uv": [ 0, 0, 14, 1 ] },
+                "south": { "texture": "#red_wool", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#red_wool", "uv": [ 0, 0, 14, 1 ] },
+                "up": { "texture": "#red_wool", "uv": [ 0, 0, 2, 14 ] }
+            }
+        }
+    ]
+}

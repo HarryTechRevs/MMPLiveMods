@@ -14,5 +14,14 @@
 	"block.harryshouseimprovements.monitor": "Monitor",
 	
 	"item.harryshouseimprovements.microphone": "Microphone",
-	"block.harryshouseimprovements.microphone": "Microphone"
+	"block.harryshouseimprovements.microphone": "Microphone",
+	
+	"item.harryshouseimprovements.computer_mouse": "Computer Mouse",
+	"block.harryshouseimprovements.computer_mouse": "Computer Mouse",
+	
+	"item.harryshouseimprovements.bar_stool": "Bar Stool",
+	"block.harryshouseimprovements.bar_stool": "Bar Stool",
+	
+	"item.harryshouseimprovements.swivel_chair": "Swivel Chair",
+	"block.harryshouseimprovements.swivel_chair": "Swivel Chair"
 }

@@ -22,10 +22,13 @@ import net.minecraft.world.World;
 public class FurnitureBlock extends RotatableBlock
 {
 	public static final EnumProperty<FurnitureMaterials> MATERIAL = EnumProperty.create("material", FurnitureMaterials.class);
+	private double height;
+	protected boolean sitting;
 	
-	public FurnitureBlock(Properties properties)
+	public FurnitureBlock(Properties properties, double height)
 	{
 		super(properties);
+		this.height = height;
 		this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(MATERIAL, FurnitureMaterials.BASIC));
 	}
 	
@@ -64,13 +67,12 @@ public class FurnitureBlock extends RotatableBlock
 			{
 				worldIn.setBlockState(pos, this.getDefaultState().with(FACING, state.get(FACING)).with(MATERIAL, mat));
 				player.getHeldItemMainhand().shrink(1);
-			}
-			else
-			{
-				ChairEntity.createChair(worldIn, pos, player);
+				return true;
 			}
 		}
 		
+		ChairEntity.createChair(worldIn, pos, player, height);
+		this.sitting = true;
 		return true;
 	}
 }

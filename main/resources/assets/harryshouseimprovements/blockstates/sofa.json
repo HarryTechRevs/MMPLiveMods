@@ -6,14 +6,39 @@
 	 	"facing=south,material=basic": { "model": "harryshouseimprovements:block/basic_sofa" },
 		"facing=west,material=basic": { "model": "harryshouseimprovements:block/basic_sofa", "y": 90 },
 		
-		"facing=north,material=wood": { "model": "harryshouseimprovements:block/wood_sofa", "y": 180},
- 		"facing=east,material=wood": { "model": "harryshouseimprovements:block/wood_sofa", "y": 270},
-	 	"facing=south,material=wood": { "model": "harryshouseimprovements:block/wood_sofa" },
-		"facing=west,material=wood": { "model": "harryshouseimprovements:block/wood_sofa", "y": 90 },
+		"facing=north,material=oak": { "model": "harryshouseimprovements:block/oak_sofa", "y": 180},
+ 		"facing=east,material=oak": { "model": "harryshouseimprovements:block/oak_sofa", "y": 270},
+	 	"facing=south,material=oak": { "model": "harryshouseimprovements:block/oak_sofa" },
+		"facing=west,material=oak": { "model": "harryshouseimprovements:block/oak_sofa", "y": 90 },
 		
-		"facing=north,material=wool": { "model": "harryshouseimprovements:block/red_wool_sofa", "y": 180},
- 		"facing=east,material=wool": { "model": "harryshouseimprovements:block/red_wool_sofa", "y": 270},
-	 	"facing=south,material=wool": { "model": "harryshouseimprovements:block/red_wool_sofa" },
-		"facing=west,material=wool": { "model": "harryshouseimprovements:block/red_wool_sofa", "y": 90 }
+		"facing=north,material=spruce": { "model": "harryshouseimprovements:block/spruce_sofa", "y": 180},
+ 		"facing=east,material=spruce": { "model": "harryshouseimprovements:block/spruce_sofa", "y": 270},
+	 	"facing=south,material=spruce": { "model": "harryshouseimprovements:block/spruce_sofa" },
+		"facing=west,material=spruce": { "model": "harryshouseimprovements:block/spruce_sofa", "y": 90 },
+		
+		"facing=north,material=birch": { "model": "harryshouseimprovements:block/birch_sofa", "y": 180},
+ 		"facing=east,material=birch": { "model": "harryshouseimprovements:block/birch_sofa", "y": 270},
+	 	"facing=south,material=birch": { "model": "harryshouseimprovements:block/birch_sofa" },
+		"facing=west,material=birch": { "model": "harryshouseimprovements:block/birch_sofa", "y": 90 },
+		
+		"facing=north,material=acacia": { "model": "harryshouseimprovements:block/acacia_sofa", "y": 180},
+ 		"facing=east,material=acacia": { "model": "harryshouseimprovements:block/acacia_sofa", "y": 270},
+	 	"facing=south,material=acacia": { "model": "harryshouseimprovements:block/acacia_sofa" },
+		"facing=west,material=acacia": { "model": "harryshouseimprovements:block/acacia_sofa", "y": 90 },
+		
+		"facing=north,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_sofa", "y": 180},
+ 		"facing=east,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_sofa", "y": 270},
+	 	"facing=south,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_sofa" },
+		"facing=west,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_sofa", "y": 90 },
+		
+		"facing=north,material=jungle": { "model": "harryshouseimprovements:block/jungle_sofa", "y": 180},
+ 		"facing=east,material=jungle": { "model": "harryshouseimprovements:block/jungle_sofa", "y": 270},
+	 	"facing=south,material=jungle": { "model": "harryshouseimprovements:block/jungle_sofa" },
+		"facing=west,material=jungle": { "model": "harryshouseimprovements:block/jungle_sofa", "y": 90 },
+		
+		"facing=north,material=red_wool": { "model": "harryshouseimprovements:block/red_wool_sofa", "y": 180},
+ 		"facing=east,material=red_wool": { "model": "harryshouseimprovements:block/red_wool_sofa", "y": 270},
+	 	"facing=south,material=red_wool": { "model": "harryshouseimprovements:block/red_wool_sofa" },
+		"facing=west,material=red_wool": { "model": "harryshouseimprovements:block/red_wool_sofa", "y": 90 }
     }
 }

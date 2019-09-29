@@ -8,8 +8,12 @@ import net.minecraft.util.IStringSerializable;
 public enum FurnitureMaterials implements IStringSerializable
 {
 	BASIC("basic", Blocks.IRON_BLOCK),
-	WOOD("wood", Blocks.OAK_PLANKS),
-	WOOL("wool", Blocks.RED_WOOL);
+	OAK("oak", Blocks.OAK_PLANKS),
+	SPRUCE("spruce", Blocks.SPRUCE_PLANKS),
+	BIRCH("birch", Blocks.BIRCH_PLANKS),
+	ACACIA("acacia", Blocks.ACACIA_PLANKS),
+	DARK_OAK("dark_oak", Blocks.DARK_OAK_PLANKS),
+	JUNGLE("jungle", Blocks.JUNGLE_PLANKS);
 	
 	private String name;
 	private Block material;

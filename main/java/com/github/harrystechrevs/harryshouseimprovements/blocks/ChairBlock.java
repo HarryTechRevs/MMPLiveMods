@@ -14,9 +14,9 @@ public class ChairBlock extends FurnitureBlock
 	VoxelShape base = VoxelShapes.create(0.0d, 0.0d, 0.0d, 1.0d, 0.375d, 1.0d);
 	VoxelShape back = VoxelShapes.create(0.0d, 0.375d, 0.0d, 1.0d, 1.0d, 0.125d);
 
-	public ChairBlock(Properties properties) 
+	public ChairBlock(Properties properties, double height) 
 	{
-		super(properties);
+		super(properties, height);
 	}
 
 	@Override

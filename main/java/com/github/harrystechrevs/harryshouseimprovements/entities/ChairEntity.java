@@ -29,11 +29,11 @@ public class ChairEntity extends Entity
 		this.noClip = true;
 	}
 	
-	private ChairEntity(EntityType<?> type, World world, BlockPos pos) 
+	private ChairEntity(EntityType<?> type, World world, BlockPos pos, double height) 
 	{
 		this(type, world);
 		this.chairPos = pos;
-		this.setPosition(chairPos.getX() + 0.5d, chairPos.getY(), chairPos.getZ() + 0.5d);
+		this.setPosition(chairPos.getX() + 0.5d, chairPos.getY() + height, chairPos.getZ() + 0.5d);
 	}
 	
 	@Override
@@ -47,7 +47,7 @@ public class ChairEntity extends Entity
 			{
 				this.remove();
 			}
-		}
+		}		
 	}
 	
 	@Override
@@ -71,13 +71,13 @@ public class ChairEntity extends Entity
 		return true;
 	}
 
-	public static boolean createChair(World world, BlockPos pos, PlayerEntity player)
+	public static boolean createChair(World world, BlockPos pos, PlayerEntity player, double height)
 	{
 		if(!world.isRemote)
 		{		
 			if(world.getEntitiesWithinAABB(ChairEntity.class, new AxisAlignedBB(pos.getX(), pos.getY(), pos.getZ(), pos.getX() + 1.0d, pos.getY() + 1.0d, pos.getZ() + 1.0d)).isEmpty())
 			{
-				ChairEntity entity = new ChairEntity(HHIEntities.chair, world, pos);
+				ChairEntity entity = new ChairEntity(HHIEntities.chair, world, pos, height);
 				world.addEntity(entity);
 				player.startRiding(entity);
 				HHIRegistries.LOGGER.debug("entity spawned");

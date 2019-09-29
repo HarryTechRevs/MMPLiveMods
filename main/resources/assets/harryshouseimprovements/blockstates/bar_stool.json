@@ -1,0 +1,39 @@
+{
+    "variants": 
+    {
+        "facing=north,material=basic": { "model": "harryshouseimprovements:block/basic_bar_stool", "y": 180},
+ 		"facing=east,material=basic": { "model": "harryshouseimprovements:block/basic_bar_stool", "y": 270},
+	 	"facing=south,material=basic": { "model": "harryshouseimprovements:block/basic_bar_stool" },
+		"facing=west,material=basic": { "model": "harryshouseimprovements:block/basic_bar_stool", "y": 90 },
+		
+		"facing=north,material=oak": { "model": "harryshouseimprovements:block/oak_bar_stool", "y": 180},
+ 		"facing=east,material=oak": { "model": "harryshouseimprovements:block/oak_bar_stool", "y": 270},
+	 	"facing=south,material=oak": { "model": "harryshouseimprovements:block/oak_bar_stool" },
+		"facing=west,material=oak": { "model": "harryshouseimprovements:block/oak_bar_stool", "y": 90 },
+		
+		"facing=north,material=spruce": { "model": "harryshouseimprovements:block/spruce_bar_stool", "y": 180},
+ 		"facing=east,material=spruce": { "model": "harryshouseimprovements:block/spruce_bar_stool", "y": 270},
+	 	"facing=south,material=spruce": { "model": "harryshouseimprovements:block/spruce_bar_stool" },
+		"facing=west,material=spruce": { "model": "harryshouseimprovements:block/spruce_bar_stool", "y": 90 },
+		
+		"facing=north,material=birch": { "model": "harryshouseimprovements:block/birch_bar_stool", "y": 180},
+ 		"facing=east,material=birch": { "model": "harryshouseimprovements:block/birch_bar_stool", "y": 270},
+	 	"facing=south,material=birch": { "model": "harryshouseimprovements:block/birch_bar_stool" },
+		"facing=west,material=birch": { "model": "harryshouseimprovements:block/birch_bar_stool", "y": 90 },
+		
+		"facing=north,material=acacia": { "model": "harryshouseimprovements:block/acacia_bar_stool", "y": 180},
+ 		"facing=east,material=acacia": { "model": "harryshouseimprovements:block/acacia_bar_stool", "y": 270},
+	 	"facing=south,material=acacia": { "model": "harryshouseimprovements:block/acacia_bar_stool" },
+		"facing=west,material=acacia": { "model": "harryshouseimprovements:block/acacia_bar_stool", "y": 90 },
+		
+		"facing=north,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_bar_stool", "y": 180},
+ 		"facing=east,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_bar_stool", "y": 270},
+	 	"facing=south,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_bar_stool" },
+		"facing=west,material=dark_oak": { "model": "harryshouseimprovements:block/dark_oak_bar_stool", "y": 90 },
+		
+		"facing=north,material=jungle": { "model": "harryshouseimprovements:block/jungle_bar_stool", "y": 180},
+ 		"facing=east,material=jungle": { "model": "harryshouseimprovements:block/jungle_bar_stool", "y": 270},
+	 	"facing=south,material=jungle": { "model": "harryshouseimprovements:block/jungle_bar_stool" },
+		"facing=west,material=jungle": { "model": "harryshouseimprovements:block/jungle_bar_stool", "y": 90 }
+    }
+}

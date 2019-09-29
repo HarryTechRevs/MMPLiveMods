@@ -1,8 +1,9 @@
 package com.github.harrystechrevs.harryshouseimprovements;
 
+import com.github.harrystechrevs.harryshouseimprovements.init.HHIBlocks;
+
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 
 public class HHIGroup extends ItemGroup 
 {
@@ -14,7 +15,7 @@ public class HHIGroup extends ItemGroup
 	@Override
 	public ItemStack createIcon() 
 	{
-		return new ItemStack(Items.APPLE);
+		return new ItemStack(HHIBlocks.chair);
 	}
 
 }

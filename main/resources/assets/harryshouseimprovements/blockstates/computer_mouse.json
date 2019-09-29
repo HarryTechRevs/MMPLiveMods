@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "facing=north": { "model": "harryshouseimprovements:block/computer_mouse", "y": 180},
+ 		"facing=east": { "model": "harryshouseimprovements:block/computer_mouse", "y": 270},
+	 	"facing=south": { "model": "harryshouseimprovements:block/computer_mouse" },
+		"facing=west": { "model": "harryshouseimprovements:block/computer_mouse", "y": 90 }
+    }
+}
